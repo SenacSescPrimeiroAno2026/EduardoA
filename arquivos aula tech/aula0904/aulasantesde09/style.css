@@ -1,0 +1,20 @@
+h2{
+background-color:orange;
+font-size: 200%;
+color: white;
+font-family: verdana;
+}
+a:link{
+color:green;
+}
+a:hover{
+color:red;
+}
+a:active{
+color:cyan;
+}
+
+a:visited{
+color: orange;
+text-decoration:underline;
+}

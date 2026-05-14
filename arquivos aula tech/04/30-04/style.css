@@ -1,0 +1,64 @@
+/*css é utilizado para realizar modificações e estilização dos elementos do nosso HTML*/
+h1{font-size: larger;
+color: blue;
+
+}
+/*ao utilizar css temos a propriedade e o valor, color: red; color é a propriedade e red o valor e sempre enceramos com ;*/
+
+
+/*seletores*/
+/*seletores são utilizados para encontrar os "elementos" em html que queremos estilizar exemplo o h1 em cima*/
+p{
+    text-align: center;
+}
+
+/*quando queremos estilizar algum elemento do html usamos o seletor no css, no caso,se queremos editar algum paragrafo podemos chamar o p{} dentro do css e realizar a altaração que queremos ou precisamos*/
+.bruv{
+    font-size: 20px;
+
+    color: lime;
+}
+/*quando usamos .nome_seletor estamos usando um seletor que chama uma classe dentro do meu HTML podemos usar em mutiplos elementos*/ 
+#primeirotexto{
+    color: purple;
+    background-color: grey;
+}
+/* quando usamos # estamos usando um seletor que chama um id dentro do meu html usamos apenas uma vez por elemento */
+div{
+    background-color: aqua;
+    border: 1px solid black;
+    display: wrap;
+}
+div.h3_textos{
+    background-color: orange;
+opacity: 0.5;
+
+}
+/*quando chamamos uma div.h3_textos vamos alterar apenas as divs que tenham a class h3_textos, outros elementos que não forem div e tiverem a class h3_textos não sofrem alteraçõe*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 30px;
+}
+/*o * é um seletor universal, ou seja, quando estilizo ele, vai ser aplicado estilo em todos os elementos */
+
+h1, h2 , h3{
+    font-family: fantasy;
+    font-size: 40px;
+
+}
+
+/*para usar seletores de forma agrupada, eu separaro por virgula,assim consigo usar varios seletores para uma mesma alteração, isso é chamado e agrumento de seletpres */
+.margem{
+margin: 50px 50px;
+
+}
+/*usando os elemento de margem temos 4 tipos, margin-top margin-right margin-bootom e margin-left
+quando utilizo apenas margin: 30px; estou aplicando a margem em todos os sentido top, right, bottom e left
+margin: auto; ocupa a margin do elememto pai.
+quando uso margin:Xpx Ypx; o primeiro valor é referente a top e bottom e o segundo valor é a right e left
+quando uso margin:Xpx Ypx Zpx; o primeiro valor é referente a top, o segundo valor é a right e left e o terceiro é referente a o bottom
+quando uso margin:Xpx Ypx Zpx Ppx; o primeiro valor é referente a top, o segundo valor é a right, o terceiro é referente a o bottom e o utimo é referente a left.
+
+*/

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formulário">
+        <div class="container">
+            <h1>formulário html</h1>
+
+            <form action="recebe.html"> <!--action é o atributo que define para onde os dados
+            devem ser enviados,quando o botão do formulário for clicado os metodos
+            de envio são GET e POST, o método GET é usado para enviar
+            dados através da URL, enquanto o método POST é usado para enviar dados
+            através do corpo da requisição HTTP. O método padrão é GET esse métodos são
+            utilizados junto da linguagem de programação do lado do servidor, como javascript,PHP,Python,etc.-->
+                <label for="id_nome"> <!--label é o elemento que fica acima do input o label define o 
+    que deve ser escrito no input -->
+                    Nome:
+                </label>
+                <br>
+                <input type="text" id="id_nome" name="lnome" value=""> <!--input é onde os dados serão digitados-->
+                <br>
+                <label for="id_senha"> <!--o for é usado para 
+                direcionar ao elemento input ou seja quando
+                eu clicar no label senha eu vou para o campo de digitação de senha-->
+                    senha
+                </label>
+                <br>
+                <input type="password" id="id_senha" name="leshan" value="">
+                <!--type é o tipo de dados que vai ser ser digitado no campo input,
+            id é o identificador do campo name é o nome do campo, value é o valor do campo-->
+            </form>
+            <br> <br><br>
+            <input type="submit" value="Enviar"> <!--o type submit é um botão que envia os]
+        dados do formulário para o servidor-->
+            <form action="">
+                <input type="radio" id="azul" name="cor" value="azul"> <!-- o type radio é
+            usado para criar opções de escolha, o atributo name define os grupos de opções,
+            ou seja, as opções que prossuem o mesmo name fazem parte do mesmo grupo de opções,
+            ou seja, as opções que possuem o mesmo grupo fazem parte do mesmo grupo,e apenas uma
+            opção pode ser selecionada dentro do grupo-->
+                <label for="azul">azul</label>
+                <input type="radio" id="vermelho" name="cor" value="vermelho">
+                <label for="vermelho">vermelho</label>
+                <input type="radio" id="verde" name="cor" value="verde">
+                <label for="verde"> verde</label>
+
+            </form>
+<br><br>
+<p> escolha seus esportes favoritos!</p>
+<form action="">
+<input type="checkbox" id="esport1" name="esport1" value="futebol"> 
+<!--o type checkbox é usado para criar oopções de escolha assim como o radio, a diferença
+é que o checkbox permite selecionar mais de uma opçõa ao mesmo tempo-->
+<label for="esport1">futebol</label>
+<br>
+<br>
+<input type="checkbox" id="esport2" name="esport2" value="volei">
+<label for="esport1">volei</label>
+<br><br>
+<input type="checkbox" id="esport3" name="esport3" value="volei">
+<label for="esport1">ciclismo</label>
+
+
+
+</form>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>

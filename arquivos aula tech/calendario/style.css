@@ -1,0 +1,13 @@
+table, th, tr, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.special{color: red;}
+
+.container{display:flex;
+ gap: 20px;
+flex-wrap: wrap ;
+justify-content: center;
+}
