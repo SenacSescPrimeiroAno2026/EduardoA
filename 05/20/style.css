@@ -1,0 +1,42 @@
+.cabecalho{
+display: flex;
+justify-content: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.dov{
+    text-align: center;
+}
+
+.button1{
+    width: 100px;
+    height: 75px;
+    font-size: 25px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 9px #753B01;
+    background-color: #B05800;
+    border: none;
+}
+
+.button1:active{
+    transform: translateY(4px);
+    box-shadow: 0 5px #522900;
+}
+
+.button2{    width: 125px;
+    height: 75px;
+    font-size: 25px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 9px #753B01;
+    background-color: #B05800;
+    border: none;
+}
+
+.button2:active{
+    transform: translateY(4px);
+    box-shadow: 0 5px #522900;
+}
