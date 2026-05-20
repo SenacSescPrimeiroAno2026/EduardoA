@@ -1,3 +1,8 @@
+body{
+display: flex;
+justify-content: center;
+}
+
 .cabecalho{
 display: flex;
 justify-content: center;
@@ -39,4 +44,30 @@ justify-content: center;
 .button2:active{
     transform: translateY(4px);
     box-shadow: 0 5px #522900;
+}
+
+img{
+ max-width: 500px;
+ max-height: 300px;   
+}
+
+.fuck{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
