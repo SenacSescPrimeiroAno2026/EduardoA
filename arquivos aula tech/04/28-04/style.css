@@ -20,7 +20,7 @@ border-color: whitesmoke;
 border-radius: 25px;
 border: 3px;
 display: flex;
-
+justify-content: center;
 }
 input[type="radio"]{transform: scale(3);}
 input{text-align: center;}

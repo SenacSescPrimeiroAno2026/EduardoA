@@ -1,0 +1,38 @@
+h1{color: blue;
+align-self: center;}
+
+
+
+
+.father{width: 400px;
+height: 200px;
+background-color: azure;
+}
+.textoh1{color: brown;}
+
+p{
+    font-size: 40px;
+
+
+}
+
+.p1{color: rebeccapurple;}
+.p2{color: goldenrod;}
+
+.t1{font-size: 20px}
+
+.div2{width: 400px;
+height: 400px;
+    background-color: black;}
+
+    #id_div1{background-color: yellow;
+    color: red;
+    }
+
+.botao{background-color: aqua;
+color: black;
+    width: 400px;
+    height: 60px;
+border-radius: 25px;
+border: 4px dashed black;
+font-size:  30px;}
